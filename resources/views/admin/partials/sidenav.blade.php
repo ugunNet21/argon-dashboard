@@ -25,10 +25,8 @@
                 <div class="badge-colors my-2 text-start">
                     <span class="badge filter bg-gradient-primary active" data-color="primary"
                         onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-dark" data-color="dark"
-                        onclick="sidebarColor(this)"></span>
-                    <span class="badge filter bg-gradient-info" data-color="info"
-                        onclick="sidebarColor(this)"></span>
+                    <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
+                    <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
                     <span class="badge filter bg-gradient-success" data-color="success"
                         onclick="sidebarColor(this)"></span>
                     <span class="badge filter bg-gradient-warning" data-color="warning"
@@ -58,6 +56,13 @@
                 </div>
             </div>
             <hr class="horizontal dark my-sm-4">
+            {{-- <div class="mt-2 mb-5 d-flex">
+                <h6 class="mb-0">Light / Dark</h6>
+                <div class="form-check form-switch ps-0 ms-auto my-auto">
+                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version"
+                        onclick="darkMode(this)">
+                </div>
+            </div> --}}
             <div class="mt-2 mb-5 d-flex">
                 <h6 class="mb-0">Light / Dark</h6>
                 <div class="form-check form-switch ps-0 ms-auto my-auto">
@@ -65,6 +70,7 @@
                         onclick="darkMode(this)">
                 </div>
             </div>
+
             <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/argon-dashboard">Free
                 Download</a>
             <a class="btn btn-outline-dark w-100"
